@@ -42,8 +42,7 @@ Charles is a simple library for simulating a population of cells moving around a
 
 ## Customization
 
-You can customize the behavior of the cells by modifying the parameters in the `config` struct and the by calling the function Charles::set_config() on the main file (before calling run()), that takes as paramenparameters: 
-int width (of the screen) , int height (of the screen), int cell_speed, int cell_max_size (radius), int cell_population (how much cells per generation):
+You can customize the behavior of the cells by modifying the parameters in the `config` struct and the by calling the function Charles::set_config() on the main file (before calling run()), that takes as paramenparameters -> int width (of the screen) , int height (of the screen), int cell_speed, int cell_max_size (radius), int cell_population (how much cells per generation):
 
     ```cpp
     int main() {
@@ -52,7 +51,7 @@ int width (of the screen) , int height (of the screen), int cell_speed, int cell
         return 0;
     }
     ```
-
+    
 
 ## License
 
