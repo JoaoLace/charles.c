@@ -2,6 +2,6 @@
 
 int main (){
     srand(time(0));
-    run();
+    Charles::run();
     return 0;
 }
