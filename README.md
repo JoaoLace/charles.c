@@ -46,7 +46,9 @@ You can customize the behavior of the cells by modifying the parameters in the `
 
 ```cpp
 int main(){
-    
+    Charles::set_config(1000,1000,30,50,300);
+    Charles::run();
+    return 0;
 }
 ```
     
